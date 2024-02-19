@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="script.js"></script>
+    <title>Contact Us - Picco Ice</title>
+</head>
+
+<body>
+        <header>
+        <div class="header-content">
+            <div class="logo">
+			<img src="images/logo1.png" alt="Picco Ice Logo">
+			</div>
+			
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="flavours.html">Flavours</a></li>
+                    <li><a href="toppings.html">Toppings</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="main-content">
+        <!-- Automatic Image Slider with Manual Controls -->
+        <div class="image-slider">
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <img class="slider-img" src="images/banner-1.png" alt="Ice Cream Slider 1">
+            <img class="slider-img" src="images/banner-2.jpg" alt="Ice Cream Slider 2">
+            <img class="slider-img" src="images/banner-3.jpg" alt="Ice Cream Slider 3">
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+   
+    <section class="main-content">
+        <h2>Get in Touch</h2>
+        <form action="#" method="post" id="contact-form">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company">
+
+            <label for="phone">Phone*</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address">
+
+            <label for="suburb">Suburb</label>
+            <input type="text" id="suburb" name="suburb">
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+
+            <label for="postcode">Postcode</label>
+            <input type="text" id="postcode" name="postcode">
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country">
+
+            <label for="interest">Interest</label>
+            <select id="interest" name="interest">
+                <option value="product">Product</option>
+                <option value="general">General Inquiry</option>
+                <option value="partnership">Partnership</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <div class="captcha">
+                <!-- Add your CAPTCHA implementation here -->
+                <!-- Example: <img src="captcha_image.jpg" alt="Captcha Image"> -->
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="flavours.html">Flavours</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p>0422222222</p>
+                <div class="subscribe">
+                    
+                </div>
+            </div>
+
+           <div class="subscribe-follow">
+    <div class="subscribe">
+        <label for="email">Subscribe</label>
+        <input type="text" id="email" name="email" placeholder="Email">
+        <button type="button">Subscribe</button>
+    </div>
+    <div class="follow-us">
+        <h4>Follow Us Online</h4>
+        <a href="#"><img src="images/facebook.png">
+        <a href="#"><img src="images/linkedin.png" >
+        <a href="#"><img src="images/instagram.png"></a>
+    </div>
+</div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024 Privacy Policy Terms & Conditions Legal Notice & Disclaimer Social Media Policy</p>
+        </div>
+    </footer>
+</body>
+
+</html>

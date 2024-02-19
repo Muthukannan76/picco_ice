@@ -1,0 +1,168 @@
+/* Add styles for the header and navigation */
+header {
+    background-color: #fff; /* Set the background color to white */
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px; /* Adjust the width of the logo as needed */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: none; /* Remove the border */
+    padding: 0; /* Remove any padding */
+}
+
+
+/* Add styles for the main content section */
+.main-content {
+    padding: 20px;
+}
+
+/* Add styles for the image slider */
+.image-slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.slider-img {
+    width: 100%;
+    display: none;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 24px;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Middle Content Section Styles */
+.middle-content {
+    text-align: center;
+}
+
+.middle-content h2 {
+    color: #333;
+}
+
+.middle-content p {
+    color: #666;
+}
+
+/* Add styles for the footer */
+.footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.footer-links a {
+    display: block;
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+.subscribe {
+    margin-right: 15px;
+}
+
+.subscribe label {
+    display: white;
+    color: #777;
+}
+
+.subscribe input {
+    padding: 5px;
+}
+
+.subscribe button {
+    padding: 5px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.follow-us h4 {
+    color: #777;
+}
+
+.follow-us a {
+    display: inline-block;
+    margin: 3px;
+}
+
+/* Add styles for the footer */
+.footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div {
+    width: 30%;
+}
+
+.footer-links a {
+    display: block;
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
